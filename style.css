@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+body, li, a{
+  font-family: 'Space Grotesk', sans-serif;
+}
+@tailwind utilities;
+@layer utilities {
+  .card{
+  @apply flex flex-col items-end justify-end p-4 h-[200px] w-[300px] text-white rounded-md;
+  }
+
+  .footerul {
+    @apply text-customColor text-sm p-1;
+  }
+}
