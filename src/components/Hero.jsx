@@ -7,7 +7,7 @@ function Hero() {
 const [open, setOpen] = useState(false);
 
   const customCss = {
-    backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.8), transparent),url('./public/images/bg.jpg')"
+    backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.8), transparent),url('/public/images/bg.jpg')"
   }
 
   
