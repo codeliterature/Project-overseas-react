@@ -6,7 +6,7 @@ function Destination() {
   
    return(
      <div className="flex flex-col items-center space-y-2 p-2 my-2" id="destination">
-     <h1 className="text-2xl text-customColor font-bold text-center my-2">Where to Go?</h1>
+     <h1 className="text-2xl text-customColor font-bold text-center my-2 font-heading">Where to Go?</h1>
        <div className="flex items-center space-x-2 flex-wrap space-y-2 justify-center">
          <p></p>
        <Card 

@@ -5,7 +5,7 @@ import ServiceCard from "./servicecard";
 function Services() {
    return (
      <div className="p-2 m-2" id="services">
-       <h1 className="text-customColor text-center text-2xl my-4 p-2 font-bold">What do we Provide?</h1>
+       <h1 className="text-customColor text-center text-2xl my-4 p-2 font-bold font-heading">What do we Provide?</h1>
        <div className="flex items-center space-x-2 flex-wrap space-y-2 justify-center">
          <p></p>
      <ServiceCard 

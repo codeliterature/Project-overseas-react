@@ -1,5 +1,5 @@
-
-export default {
+module.exports = {
+  darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -8,8 +8,11 @@ export default {
       colors: {
         "customColor": "#ff6b6b"
       },
+      fontFamily: {
+        'paragraph': ['Poppins', "sans-serif"],
+        'heading': ['Space Grotesk', "sans-serif"]
+      }
     },
   },
   plugins: [],
 }
-

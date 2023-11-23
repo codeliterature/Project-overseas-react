@@ -1,8 +1,5 @@
 @tailwind base;
 @tailwind components;
-body, li, a{
-  font-family: 'Space Grotesk', sans-serif;
-}
 @tailwind utilities;
 @layer utilities {
   .card{
@@ -12,4 +9,5 @@ body, li, a{
   .footerul {
     @apply text-customColor text-sm p-1;
   }
+
 }

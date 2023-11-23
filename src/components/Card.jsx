@@ -27,10 +27,10 @@ const hoverImg = {
   return (
     <div onMouseOver={checked} onMouseOut={unchecked}>
       {isHover?<div className="card" style={hoverImg}>
-            <p className="text-justify p-2 text-sm">{props.content}</p>
+            <p className="text-justify p-1 text-sm font-paragraph">{props.content}</p>
       </div>:
-      <div className="card" style={img}><h1 className="text-lg ">{props.head}</h1>
-        <p className="text-sm"><LocationOnSharpIcon />{props.location}</p>  
+      <div className="card" style={img}><h1 className="text-lg font-heading">{props.head}</h1>
+        <p className="text-sm font-paragraph"><LocationOnSharpIcon />{props.location}</p>  
         </div>}
       </div>
   );
