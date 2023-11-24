@@ -54,7 +54,7 @@ export default function Modal() {
           <input type="text" placeholder="Your Name" className="p-2 rounded bg-transparent"/>
           <input type="email" placeholder="Your Email" className="p-2 rounded bg-transparent"/>
           <textarea maxlength="240" row="7" placeholder="Enter your message here" className="p-2 rounded bg-transparent"></textarea>
-          <button className="border border-1px border-customColor rounded py-2 hover:bg-customColor hover:ease-in duration-200 font-heading">Submit</button>"
+          <button className="border border-1px border-customColor rounded py-2 hover:bg-customColor hover:ease-in duration-200 font-heading">Submit</button>
             </div>
       </BootstrapDialog>
     </React.Fragment>
