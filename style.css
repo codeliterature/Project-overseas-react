@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer utilities {
   .card{
-  @apply flex flex-col items-end justify-end p-4 h-[200px] w-[300px] text-white rounded-md;
+  @apply flex flex-col items-start justify-end p-4 h-[200px] w-[300px] text-white rounded-md;
   }
 
   .footerul {

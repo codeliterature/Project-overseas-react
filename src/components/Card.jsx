@@ -12,7 +12,7 @@ const hoverImg = {
     backgroundSize: "cover",
 }
   const img = {
-    backgroundImage: "url(" + props.img +")",
+    backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), transparent),url(" + props.img +")",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover"
