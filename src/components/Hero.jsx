@@ -10,7 +10,7 @@ const [open, setOpen] = useState(false);
 
   
   return (
-    <div style={customCss} className="bg-center bg-no-repeat bg-cover min-h-[80vh] w-[90%] m-auto my-4 rounded-md bg-blend-darken flex justify-center" id="home">
+    <div style={customCss} className="bg-center bg-fixed bg-no-repeat bg-cover min-h-[80vh] w-[90%] m-auto my-4 rounded-md bg-blend-darken flex justify-center" id="home">
       <div className="flex flex-col my-4 space-y-12 items-center p-4 justify-center">
         
         <h3 className="text-2xl font-bold text-center text-white font-heading">Welcome to Project Overseas</h3>
